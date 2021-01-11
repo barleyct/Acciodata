@@ -1,0 +1,80 @@
+.panel-body table table div {
+    display: block !important;
+}
+
+.panel-collapse.collapse {
+    display: block !important;
+}
+
+#billing_identifiers_container,
+#top_navigation_bar,
+.quick-nav-panel,
+#actionscontainer,
+#toplogocontainer,
+#plus-minus-notes-collapse,
+#menu_location_div,
+.panel-heading .editabletxt,
+.panel-body .fa,
+#report_handle > .col-md-12:nth-child(4) .col-md-3,
+#edit_image_dialog_outer + .row,
+.panel-body table table div.criminal-details-show-hide-next,
+.panel-body table table div.criminal-details-index-links,
+.panel-heading h4 > span:first-child {
+    display: none !important;
+}
+
+.overflow-x-scroll {
+    overflow-x: hidden !important;
+}
+
+#report_handle > .col-md-12:nth-child(4) .col-md-9 {
+    width: 100%;
+}
+
+.panel {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.panel-heading {
+    padding: 0 !important;
+    background: transparent !important;
+    color: #000000 !important;
+    border-bottom: 1px solid #000000 !important;
+}
+
+.panel-body {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.black10 + .row {
+    margin-top: 20px;
+}
+
+.panel-body .order-info-header-row > div,
+.panel-body .order-info-header-row ~ .row > div {
+    width: 25% !important;
+    display: block !important;
+    word-break: break-all;
+    float: left !important;
+}
+
+.panel-body .order-info-header-row > div:nth-child(2),
+.panel-body .order-info-header-row ~ .row > div:nth-child(2) {
+    width: 50% !important;
+}
+
+.panel-body .order-info-header-row > div:first-child,
+.panel-body .order-info-header-row ~ .row > div:first-child {
+    display: none !important;
+}
+
+
+#report_handle .headertd,
+#report_handle > .col-md-9,
+#report_handle > .col-md-9 > .row > .col-md-7,
+#report_handle > .col-md-9 > .row > div > .col-md-5 {
+    width: 100% !important;
+}
+
