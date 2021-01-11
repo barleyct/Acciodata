@@ -1,3 +1,5 @@
+* { color-adjust: exact;  -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
 .panel-body table table div {
     display: block !important;
 }
@@ -18,8 +20,7 @@
 #report_handle > .col-md-12:nth-child(4) .col-md-3,
 #edit_image_dialog_outer + .row,
 .panel-body table table div.criminal-details-show-hide-next,
-.panel-body table table div.criminal-details-index-links,
-.panel-heading h4 > span:first-child {
+.panel-body table table div.criminal-details-index-links {
     display: none !important;
 }
 
@@ -37,10 +38,11 @@
 }
 
 .panel-heading {
-    padding: 0 !important;
+    padding: 1px 10px !important;
     background: transparent !important;
     color: #000000 !important;
-    border-bottom: 1px solid #000000 !important;
+    background: #eee !important;
+    border-bottom: 1px solid #eee !important;
 }
 
 .panel-body {
@@ -78,3 +80,45 @@
     width: 100% !important;
 }
 
+
+.print-page-break-always {
+    page-break-before: always;
+}
+
+.print-table-border {
+    width: 100% !important;
+    clear: both;
+}
+
+.print-table-no-border {
+    width: auto !important;
+    clear: both;
+}
+.print-table-no-border td,
+.print-table-no-border th {
+    width: auto !important;
+    text-align: left;
+}
+
+.print-table-border td,
+.print-table-border th {
+    width: auto !important;
+    max-width: 100%;
+    text-align: left;
+    padding: 4px 10px !important;
+    border: 1px solid #eee !important;
+}
+
+tr.print-no-border td {
+    border: 0 !important;
+}
+
+.print-no-padding {
+    padding: 0 !important;
+}
+
+
+.link_encapsulator a:after {
+    font-size: 70% !important;
+    display: block;
+}
